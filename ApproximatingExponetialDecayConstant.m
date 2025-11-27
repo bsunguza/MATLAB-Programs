@@ -166,9 +166,9 @@ end
     plot(t, Ydata)
     hold on 
     plot(t, Ykmin)
-    legend('Data', 'Fitted Model Using k*');
-    xlabel('t')
-    ylabel('y(t;k)')
+    legend('Data', 'Fitted Model Using $k_{approx}$', 'interpreter', 'latex');
+    xlabel('$t$', 'interpreter', 'latex')
+    ylabel('$y(t;k)$', 'interpreter', 'latex')
     title('Comparing The Data and The Fitted Model')
     hold off
 
@@ -176,9 +176,9 @@ end
     figure(2)
     plot(iterations, Jplot)
     hold on
-    xlabel('iteration number')
-    ylabel('J(k)')
-    title('Convergence of J(k) to Minimum as Iterations Increase')
+    xlabel('Iteration Number')
+    ylabel('$J(k)$', 'interpreter', 'latex')
+    title('Convergence of $J(k)$ to Minimum as Iterations Increase', 'interpreter', 'latex')
     hold off
     
 function dydt = ODE(y,k)
