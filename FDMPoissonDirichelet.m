@@ -1,4 +1,4 @@
-function  SunguzaFDMPoissonDirichelet
+function  FDMPoissonDirichelet
 
 %The following code will numerically solve a Poisson PDE Equation within a unit square
 %whose bottom left corner is on the origin. Using LaTeX notation, the
