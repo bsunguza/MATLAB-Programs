@@ -1,7 +1,7 @@
 function  SunguzaFDMPoissonDirichelet
 
 %The following code will numerically solve a Poisson PDE Equation within a unit square
-%whose bottom left corner is on the origin. Using latex notation, the
+%whose bottom left corner is on the origin. Using LaTeX notation, the
 %equation is $-\nabla u = 2\pi^2 \sin(\pi x)\sin(\pi y)$ where we have 
 %homogenous Dirichelet boundary conditions. 
 
